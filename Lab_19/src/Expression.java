@@ -1,6 +1,6 @@
 public class Expression {
     private static Expression exp;
-    Expression(){}
+    private Expression(){}
     public static Expression getResult(){
         if(exp==null){
             exp = new Expression();
